@@ -1,0 +1,89 @@
+
+.show-products img{
+    width:200px;
+    height:200px;
+    margin-top:5px;
+    margin-left:50px;
+}
+.show-products img:hover {
+    width:250px;
+    margin-left:30px;
+   
+}
+.show-products {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width:300px;
+    
+    
+}
+.products-display {
+    margin:0px 50px 0px 50px;
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.cont-text {
+    margin:100px 50px 0px 50px;
+   
+}
+.cont-text h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:600;
+    font-size:40px;
+}
+.filter span {
+    font-size:20px;
+    font-weight:600;
+}
+.filter i {
+    font-size:20px;
+    font-weight:600;
+    margin-top:7px;
+    position:absolute;
+}
+.filter {
+    margin-left:90%;
+}
+.filter:hover {
+    cursor: pointer;
+}
+.show-products p {
+    margin-top:20px;
+    text-align: center;
+    font-family: 'Hind Madurai', sans-serif;
+  
+}
+.show-products p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#amount {
+    margin-top:25px;
+    font-weight:600;
+}
+#amount:hover {
+    text-decoration: none;
+   
+}
+.show-products:hover {
+    cursor:pointer;
+}
+#add-cart{
+    margin-bottom:30px;
+    margin-left:25px;
+    width:250px;
+}
+#add-cart:focus,#add-cart:active{
+    border-style:none;
+    box-shadow:none;
+}
+.show-products span {
+    color:gray;
+   margin-left:120px;
+   position:absolute;
+   margin-top:-20px;
+   margin-bottom:30px;
+}
+
+  
+

@@ -1,0 +1,145 @@
+
+.text {
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:50px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.text h4 {
+    font-size:40px;
+}
+.product-image img{
+    width:500px;
+    height:400px;
+    margin:30px 0px 0px 40px;
+}
+.product-image {
+    width:600px;
+    height:500px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+   
+   
+}
+.product {
+    margin-top:50px;
+    margin-left:50px;
+    display:flex;
+    gap:30px;
+    margin-right:50px;
+
+}
+.information h4 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:25px;
+    font-weight:600;
+}
+.information span{
+    font-size:20px;
+    
+}
+.cart-input {
+    width:150px;
+    height:40px;
+    display:flex;
+    border: 1px solid gray;
+}
+.bottom-info {
+    margin-top:150px;
+    
+}
+.minus {
+    width:30%;
+    border-right:1px solid gray;
+}
+#price {
+    font-weight:600;
+
+}
+#stocks {
+    color:Gray;
+}
+.input-text {
+    width:40%;
+}
+.add {
+    width:30%;
+    border-left:1px solid gray;
+}
+.add span,.minus span {
+    margin-left:35%;
+}
+.input-text input{
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color:Gray;
+}
+.input-text input:focus,.input-text input:active {
+    outline:none;
+}
+.add:hover,.minus:hover {
+    cursor:pointer ;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.size {
+    width:50px;
+    border:1px solid gray;
+    margin-left:10px; 
+    background-color: white;
+    height:30px;
+}
+.sizes {
+    margin-top:30px;
+}
+
+.sizes p {
+    margin-left:5px;
+    font-weight:600;
+}
+.cart-input {
+    margin-top:10px;
+}
+#sub-total {
+    font-size:25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:600;
+    visibility: hidden;
+
+}
+.p-information-buttons {
+    margin-top:25px;
+}
+.p-information-buttons button{
+    width:300px;
+}
+
+.special {
+    background-color: black;
+    color:White;
+}
+
+.description,.suggested-product {
+    margin: 70px 50px 0px 50px;
+}
+.description h4,.suggested-product h4 {
+    font-size:30px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.description article {
+    margin-top:10px;
+}
+.like-products {
+    display:flex;
+    gap:20px;
+}
+.products-display a,.show-products a{
+    text-decoration: none;
+    color:black;
+}
