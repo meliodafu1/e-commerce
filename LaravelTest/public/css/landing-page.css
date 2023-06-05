@@ -248,7 +248,6 @@ cursor: pointer;
 }
 #first-img img {
   margin-top:20px;
-  height:230px;
  
 }
 .footer {
@@ -291,7 +290,7 @@ cursor: pointer;
  padding-top:10px;
  padding-left:10px;
  padding-right:10px;
-  background-color: white;
+  background-color:black;
   margin-left:87%;
   margin-top:21.5vh;
   visibility: hidden;
@@ -300,7 +299,8 @@ cursor: pointer;
 
 .box h5 {
   padding-bottom:5px;
-  border-bottom:1px solid black;
+  border-bottom:1px solid white;
+  color:white;
 }
 .logout p {
   font-size:15px;
@@ -316,10 +316,12 @@ cursor: pointer;
   gap:10px;
 }
 .divide i {
+  color:White;
   font-size:20px;
 }
 .divide p {
   margin-top:-2.5px;
+  color:White;
 }
 .divide:hover {
   cursor: pointer;

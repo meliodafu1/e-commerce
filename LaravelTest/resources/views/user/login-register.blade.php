@@ -51,13 +51,6 @@
             {{Session::get('message')}}
          </div>
     @endif
-        <!-- @if ($errors->any())
-        <div class="alert alert-danger alert-dismissible fade show alert-error" role="alert">
-            @foreach($errors->all() as $error)
-             {{$error}}
-            @endforeach
-         </div>
-    @endif -->
  <div class="sign-up">
         <div class="bdy">
         <form action="/register" method="get">
@@ -65,6 +58,10 @@
                 <div class="rgster-form">
                 <input type="text" name="username" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Username">
                 <span>{{$errors->first('username')}}</span>
+                </div>
+                <div class="rgster-form">
+                <input type="text" name="fullname" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Full Name">
+                <span>{{$errors->first('fullname')}}</span>
                 </div>
                 <div class="rgster-form">
                 <input type="text" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
@@ -87,7 +84,9 @@
         </div>
     </div>
 </div>
-  @include('user.footer')
+<div class="l-footer">
+<span>©Mapasakatan Creator</span>
+</div>
   @include('user.script') 
   <script>
     function sign_in() {

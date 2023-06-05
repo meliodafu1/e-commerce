@@ -15,12 +15,9 @@
   @else
      <a href="{{route('cart.products')}}"><span><li><i class='bx bxs-cart crt'><span id="counter1">{{\Cart::session('user')->getContent()->count()}}</span></i></li></span></a>
   @endif
-
-
-
   @if (Auth::user())
   <div class="circle" id="profile-image">
-  <img src="{{URL::asset('/uploads/profile-png.png')}}" alt="" >
+    <img src="{{URL::asset('/uploads/profile-png.png')}}" alt="" >
   </div>
   @else
   <form action="/login" method="get">
@@ -45,11 +42,8 @@
 </div>
 @include('user.script')
 <script>
- 
-  function logout() {
-    location.replace("{{ route('logout') }}");
-  }
-  var box = document.querySelector('.box');
+ @if(Auth::check())
+ var box = document.querySelector('.box');
   var image = document.querySelector('#profile-image');
   image.addEventListener("mouseover",()=>{
     box.classList.add('active');
@@ -59,7 +53,11 @@
     box.classList.remove('active');
     }
   });
- 
+@endif
+  function logout() {
+    location.replace("{{ route('logout') }}");
+  }
+
 
  
 </script>

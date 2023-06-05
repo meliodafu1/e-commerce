@@ -16,6 +16,15 @@ Route::get('/register',[TestController::class,'register'])->name('user.register'
 Route::get('/login-attempt',[TestController::class,'login_user'])->name('login_user');
 Route::get('/logout',[TestController::class,'logout'])->name('logout');
 Route::get('/removeCart',[TestController::class,'removeCart'])->name('remove-cart');
+Route::get('/payment',[TestController::class,'payment'])->name('payment');
+Route::post('add-money-stripe',[TestController::class,'postPaymentStripe'])->name('addmoney.stripe');
+
+
+
+Route::middleware(['auth','user-role'])->group(function(){
+    Route::get('/admin-dashboard',[TestController::class,'adminDashboard'])->name('admin.dashboard');
+    Route::post('/admin-update',[TestController::class,'adminUpdate'])->name('admin.update');
+});
 
 
 

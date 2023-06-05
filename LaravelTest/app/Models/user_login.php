@@ -4,16 +4,21 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Cashier\Billable;
 use Illuminate\Foundation\Auth\User as Authenticatable;  
 
 class user_login extends Authenticatable
 {
-    use HasFactory;
+  
+    use HasFactory,Billable;
     protected $table = "users";
     protected $fillable = [
         'Username',
         'Email',
         'Password',
+        'Name',
+        'type',
+        'image'
     ];
     /**
      * The attributes that should be hidden for serialization.
@@ -30,6 +35,7 @@ class user_login extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
-        'registered_time' => 'datetime'
+        'updated_at' => 'datetime',
+        'created_at' => 'datetime'
     ];
 }

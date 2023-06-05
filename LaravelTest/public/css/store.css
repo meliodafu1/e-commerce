@@ -68,12 +68,12 @@
 .show-products:hover {
     cursor:pointer;
 }
-#add-cart{
+#add-cart,#add-cart1{
     margin-bottom:30px;
     margin-left:25px;
     width:250px;
 }
-#add-cart:focus,#add-cart:active{
+#add-cart:focus,#add-cart:active,#add-cart1:focus,#add-cart1:active{
     border-style:none;
     box-shadow:none;
 }
@@ -85,5 +85,5 @@
    margin-bottom:30px;
 }
 
-  
+
 

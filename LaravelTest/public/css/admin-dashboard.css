@@ -1,0 +1,213 @@
+.admin-container {
+    display:flex;
+}
+.h-navbar {
+    width:20%;
+    height:100vh;
+    background-color:black;
+    position: fixed;
+  
+}
+.admin-logo {
+    margin-top:30px;
+    margin-left:60px;
+}
+.h-navbar hr {
+    color:white;
+    height:3px;
+}
+
+
+.profile-pic img {
+   width:60px;
+   height:60px;
+   border-radius: 50%;
+}
+
+.admin-profile {
+    display:flex;
+    gap:10px;
+    padding-top:5px;
+    padding-left:50px;
+}
+.profile-info span {
+    color:white;
+    font-weight:500;
+    font-size:18px;
+}
+.profile-info p {
+    color:Gray;
+    font-weight:500;
+    font-size:15px;
+}
+.navbar-menu {
+    margin-top:50px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.navbar-menu-content {
+   padding-bottom:30px;
+   height:50px;
+   margin-bottom:20px;
+  
+}
+.navbar-menu-content span {
+    font-size:18px;
+    color:White;
+    margin-left:20px;
+}
+.navbar-menu-contnent #menu-pic {
+    width:30%;
+    height:30%;
+}
+.navbar-menu-content i{
+    color:White;
+    font-size:22px;
+    padding-top:10px;
+    padding-left:55px;
+
+}
+.navbar-menu .logout {
+    color:White;
+    margin-top:280px;
+}
+#user-profile {
+    font-size:25px;
+}
+.active-menu {
+    background-color: gray;
+    border-radius: 30px;
+}
+.navbar-menu-content span:hover,.navbar-menu-content i:hover {
+    cursor: pointer ;
+}
+.admin-content {
+   margin:20px 50px 50px 50px;
+   width:100%;
+   margin-left:350px;
+}
+.admin-content h4,.admin-products h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:600;
+    font-size:40px;
+}
+.admin-content .profile-form {
+    width:80%;
+    height:80%;
+    margin:50px 0px 0px 220px;
+}
+
+.profile-form .name{
+    display:flex;
+    gap:30px;
+}
+ .name label,.email label,.username label {
+  font-weight:500;
+}
+.email,.username {
+    padding-top:20px;
+}
+.email input,.username{
+    width:74%;
+}
+.profile-form button {
+    margin-top:10px;
+    width:150px;
+}
+.note {
+    margin-top:20px;
+}
+.profile-image{
+    margin-left:30%;
+    width:150px;
+    height:150px;
+    position: absolute;
+    overflow:hidden;
+    border-radius: 60%;
+    border: 1px solid grey;
+    margin-top:-130px;
+   
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+}
+
+#file {
+    display:none;
+}
+#upload {
+    position:absolute;
+    font-size:25px;
+    margin-top:120px;
+    margin-left:-175px;
+    color:white;
+    text-align:center;
+    background-color:black ;
+    width:200px;
+    height:200px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.profile-form span {
+    color:red;
+}
+.psw {
+    padding-bottom:10px;
+}
+.success-edit {
+    text-align: center;
+    width:60%;
+    margin-left:220px;
+    margin-top:10px;
+
+}
+.success-edit button {
+    border:none;
+    background-color: transparent;
+    font-weight:500;
+}
+.admin-products{
+    margin:20px 50px 50px 50px;
+    width:100%;
+    margin-left:350px;
+}
+.table_product button {
+    margin-bottom:5px;
+    width:80px;
+}
+.admin-products,.admin-content {
+    display:none;
+}
+.add-prod {
+    font-weight:500;
+    margin-bottom:20px;
+}
+.product-head {
+    width:100%;
+    height:100%;
+  
+}
+.product-head button{
+ font-size:50px;
+ 
+}
+.elements-add input {
+    width:100%;
+    height:50px;
+}
+.elements-add textarea {
+    width:900px;
+}
+.elements-add label {
+    font-size:20px;
+    font-weight:400;
+}
+.file_upload label {
+    font-weight:500;
+
+}
+.file_upload {
+    margin-top:20px;
+}

@@ -101,3 +101,66 @@
     margin-top:60px;
     height:50px;
 }
+.fname,.card-c {
+    display:flex;
+    gap:10px;
+}
+.f-address {
+    margin-top:20px;
+}
+.fname input,.card-c input {
+    width:50%;
+}
+.card-c {
+    margin-top: 20px;
+}
+.buy-button{
+    width:100%;
+    
+}
+.buy-area p {
+    font-weight:500;
+    font-size:18px;
+}
+
+.error_message {
+    margin-left:20px;
+    margin-right:20px;
+}
+.error_message button {
+    background-color: transparent;
+    border:none;
+    font-size:30px;
+   padding-top:-30px;
+   margin-top:-80%;
+   margin-left:99%;
+    
+}
+.options {
+    margin-top:10px;
+    display:flex;
+    gap:10px;
+}
+.option {
+    width:300px;
+    border: 1px solid rgb(216, 212, 212);
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    color:gray;
+    background-color: transparent;
+    margin-top:10px;
+}
+.option:hover {
+    cursor: pointer;
+}
+.pick_option {
+    background-color:black;
+    color:white;
+}
+.cod input {
+    margin-top:20px;
+}
+.email-address {
+    margin-top:20px;
+}

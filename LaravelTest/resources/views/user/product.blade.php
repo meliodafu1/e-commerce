@@ -19,12 +19,7 @@
             <h4>{{$products->product_name}}</h4>
             <span id="price" >P{{$products->product_price}}</span><br>
             <span id="stocks">( {{$products->product_stocks}} stocks )</span>
-            <div class="sizes">
-                <p>Sizes :</p>
-                        <button id="sizess" onClick="getVal(this)" class="size" value='{{$products->product_price}}'>S</button>
-                        <button id="sizess" onClick="getVal(this)" class="size" value="1500.00">M</button>
-                        <button id="sizess" onClick="getVal(this)" class="size" value="2500.00">L</button>
-                    </div>
+           
             <div class="bottom-info">
                 <span id="sub-total">s</span>
                     <div class="cart-input">
@@ -141,27 +136,7 @@
            }
 
         }
-        const get_cart = document.querySelector('#add1-cart');
-        get_cart.addEventListener('click',()=>{
-        const get_quantity = document.querySelector('#number_of_items').value;
-            var product_id = get_cart.value;
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                }
-                });
-            $.ajax({
-            method: "GET",
-            url: "/getCart",
-            data: {
-                "product_id":product_id,
-                "quantity":get_quantity
-            },
-            success: function(response) {
-            $('#counter').html(response.count);
-                }
-            });
-            });
+    
             
     </script>
 </body>

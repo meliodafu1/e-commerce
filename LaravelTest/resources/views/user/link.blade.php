@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="{{asset('css/landing-page.css')}}">
   <link rel="stylesheet" href="{{asset('css/store.css')}}">
   <link rel="stylesheet" href="{{asset('css/cart_products.css')}}">
+  <link rel="stylesheet" href="{{asset('css/admin-dashboard.css')}}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Hind+Madurai&family=Laila&family=Nova+Slim&family=Poppins&family=Quantico&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

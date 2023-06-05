@@ -76,3 +76,26 @@ body {
 .rgster-form1  {
     text-align: center;
 }
+.l-footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background-color: black;
+}
+.l-footer {
+    text-align: center;
+    color:White;
+    padding-top:20px;
+}
+.rgster-form input,.rgster-form1 input {
+    border:none;
+    border-bottom:1px solid gray;
+    border-radius:0px;
+}
+.rgster-form input:active,.rgster-form input:focus,.rgster-form1 input:active,.rgster-form1 input:focus {
+    border:none;
+    border-bottom:1px solid gray;
+    border-radius:0px;
+    
+}
